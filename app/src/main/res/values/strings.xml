@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">offerOn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Vishal</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_notify">notify</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_myprofile">Myprofile</string>
+    <string name="menu_myorder">Myorder</string>
+    <string name="made_in_india"># Made In India</string>
+    <string name="Log_in_as_merchant">Log in as merchant</string>
+    <string name="by_continuing_you_agree_to_accept_our_privacy_policy_amp_terms_of_service"><![CDATA[By continuing, you agree to accept our Privacy Policy & Terms of Service]]></string>
+    <string name="log_in">log_in</string>
+    <string name="submit">Submit</string>
+    <string name="logout">logout</string>
+    <string name="contactus">contactus</string>
+    <string name="privacypolicy">privacypolicy</string>
+    <string name="mycoupans">mycoupans</string>
+    <string name="mychats">mychats</string>
+    <string name="notification">notification</string>
+    <string name="wishlist">wishlist</string>
+    <string name="settings">settings</string>
+    <string name="offeron">OfferOn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

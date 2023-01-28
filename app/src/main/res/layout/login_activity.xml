@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_bk_screen">
+
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="27sp"
+        android:layout_below="@+id/offer_tview"
+        android:layout_width="wrap_content"
+        android:background="@drawable/backgrd_wt_curve"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/offer_tview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:scaleType="centerInside"
+            android:src="@drawable/splash_logo" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OfferOn"
+            android:letterSpacing="0.1"
+            android:layout_marginStart="10sp"
+            android:textColor="@color/white"
+            android:textSize="43sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:layout_below="@+id/offer_tview"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:letterSpacing="0.1"
+            android:textColor="@color/background"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_below="@+id/login_text_view">
+
+
+        <EditText
+            android:id="@+id/Login_email_mob"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/edittext_bk_shadow"
+            android:hint="  Email / Mobile Number"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/Login_password"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_below="@+id/Login_email_mob"
+            android:hint="  Password"
+            android:background="@drawable/edittext_bk_shadow"
+            android:textColor="@color/black"
+            android:layout_marginTop="20sp"
+            />
+
+        <TextView
+            android:id="@+id/Forgot_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="forgot_password"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="@color/background"
+            android:layout_below="@+id/Login_password"
+            android:gravity="end"/>
+
+       <Button
+           android:id="@+id/login_button"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/log_in"
+           android:layout_marginTop="20sp"
+           android:layout_below="@+id/Forgot_pass"
+           android:textSize="20sp"
+           android:textColor="@color/white"
+           android:background="@drawable/circle_btn_bkground">
+
+       </Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_merchant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_below="@+id/relative_textview">
+
+        <TextView
+            android:id="@+id/merchant_login_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Log_in_as_merchant"
+            android:letterSpacing="0.1"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/background"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:gravity="center"
+            android:layout_below="@+id/merchant_login_click"
+            android:hint="@string/by_continuing_you_agree_to_accept_our_privacy_policy_amp_terms_of_service"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_or"
+        android:layout_below="@+id/relative_merchant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottomline"
+            android:layout_marginEnd="20sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textSize="20sp"
+            android:layout_marginTop="7sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:background="@drawable/bottomline"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_Google"
+        android:layout_below="@+id/linear_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="19sp">
+
+            <ImageButton
+                android:id="@+id/google_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/google" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/facebook_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/facebook"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19sp">
+
+            <ImageButton
+                android:id="@+id/twitter_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/twitter"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:layout_below="@+id/linear_Google"
+        android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/dont_have_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="Don't have an account?"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/signup_click_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dont_have_account"
+                android:textSize="20sp"
+                android:layout_marginLeft="6sp"
+                android:letterSpacing="0.1"
+                android:textColor="@color/background"
+                android:background="@color/white"
+                android:text="Sign up"/>
+
+
+
+
+                    </LinearLayout>
+
+               </RelativeLayout>
+
+        </ScrollView>
+
+
+</RelativeLayout>

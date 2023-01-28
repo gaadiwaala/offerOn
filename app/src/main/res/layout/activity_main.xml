@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:itemTextColor="@color/white"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:layout_marginStart="15sp"
+            android:layout_marginEnd="15sp"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="65sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/navigation_bottm_uline"
+                android:textColor="@color/white"
+                android:layout_marginEnd="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/offeron"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:letterSpacing="0.1"
+                android:layout_marginTop="7sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="65sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:background="@drawable/navigation_bottm_uline"/>
+
+
+        </LinearLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:background="@color/background"
+            app:menu="@menu/bottom_navigation"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.offeron.ui.home.home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_myprofile"
+        android:name="com.example.offeron.ui.myprofile.myprofile"
+        android:label="@string/menu_myprofile"
+        tools:layout="@layout/myprofile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_myorder"
+        android:name="com.example.offeron.ui.myorder.myorder"
+        android:label="@string/menu_myorder"
+        tools:layout="@layout/myorder_fragment" />
+
+    <fragment
+        android:id="@+id/nav_mywishlist"
+        android:name="com.example.offeron.ui.wishlist.wishlist"
+        android:label="@string/wishlist"
+        tools:layout="@layout/wishlist_fragment" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.offeron.ui.notification.notification"
+        android:label="@string/notification"
+        tools:layout="@layout/notification_fragment" />
+
+    <fragment
+        android:id="@+id/nav_mychats"
+        android:name="com.example.offeron.ui.mychats.mychats"
+        android:label="@string/mychats"
+        tools:layout="@layout/mychats_fragment" />
+
+    <fragment
+        android:id="@+id/nav_mycoupans"
+        android:name="com.example.offeron.ui.mycoupans.mycoupans"
+        android:label="@string/mycoupans"
+        tools:layout="@layout/mycoupans_fragment" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.offeron.ui.settings.settings"
+        android:label="@string/settings"
+        tools:layout="@layout/settings_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_privacypolicy"
+        android:name="com.example.offeron.ui.privacypolicy.privacypolicy"
+        android:label="@string/privacypolicy"
+        tools:layout="@layout/privacypolicy_fragment" />
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.offeron.ui.contactus.contactus"
+        android:label="@string/contactus"
+        tools:layout="@layout/contactus_fragment" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.offeron.ui.logout.logout"
+        android:label="@string/logout"
+        tools:layout="@layout/logout_fragment" />
+
+
+
+
+</navigation>

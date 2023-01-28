@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btm_search"
+        android:icon="@drawable/search_bottom_nav"
+        android:title="search" />
+
+    <item
+        android:id="@+id/btm_cartview"
+        android:icon="@drawable/cardview_bottom"
+        android:title="cart" />
+
+    <item
+        android:id="@+id/btm_home"
+        android:icon="@drawable/home_bottom"
+        android:title="home" />
+
+    <item
+        android:id="@+id/btm_chat"
+        android:icon="@drawable/chat_bottom"
+        android:title="chat" />
+
+    <item
+        android:id="@+id/btm_play"
+        android:icon="@drawable/play_bottom"
+        android:title="play" />
+
+
+</menu>

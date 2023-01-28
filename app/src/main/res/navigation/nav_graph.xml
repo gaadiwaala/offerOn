@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/btm_search">
+
+
+    <fragment
+        android:id="@+id/btm_search"
+        android:name="com.example.offeron.fragments.bottom_search"
+        android:label="main_search"
+        tools:layout="@layout/bottom_search" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/btm_cartview"
+        android:name="com.example.offeron.fragments.bottom_cartview"
+        android:label="main_cartview"
+        tools:layout="@layout/bottom_cartview" />
+
+    <fragment
+        android:id="@+id/btm_home"
+        android:name="com.example.offeron.fragments.bottom_home"
+        android:label="main_home"
+        tools:layout="@layout/bottom_home" />
+
+    <fragment
+        android:id="@+id/btm_chat"
+        android:name="com.example.offeron.fragments.bottom_chat"
+        android:label="main_chat"
+        tools:layout="@layout/bottom_chat" />
+
+    <fragment
+        android:id="@+id/btm_play"
+        android:name="com.example.offeron.fragments.bottom_play"
+        android:label="main_play"
+        tools:layout="@layout/bottom_play" />
+
+</navigation>
