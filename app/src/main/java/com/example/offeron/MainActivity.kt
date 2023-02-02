@@ -1,5 +1,6 @@
 package com.example.offeron
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
 
+    @SuppressLint("WrongViewCast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
